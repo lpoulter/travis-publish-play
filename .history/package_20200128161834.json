@@ -1,0 +1,13 @@
+{
+  "name": "travis-publish-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -f ./dist",
+    "build": "cp src/index.js dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
